@@ -200,15 +200,77 @@ function faireQuelqueChose() {
     console.log("Je fais un truc !");
     console.log("Trop Cool");
 }
-faireQuelqueChose();
+faireQuelqueChose()
 
 const faireUneTache = (tache) => {
     console.log("Je fais : " + tache);
 };
+
 faireUneTache("les courses");
 faireUneTache("le menage");
 
 function calc(s,t) {
   return s + t;
 }
-calc(4, 9);
+
+function add2() {
+    let u = 4;
+    console.log(a);
+    return u + 2;
+}
+add2();
+
+
+let total3 = 0;
+
+function addition(x, y) {
+   total3=x+y
+    return total;
+}
+
+
+(function maFonction() {
+    console.log("Je ne joue toute seule");
+})();
+
+(() => {
+     console.log("Je ne joue aussi toute seule");
+})();
+
+let total4 = 0;
+
+function addition(x, y) {
+    total4 = x + y;
+    return total;
+}
+
+let total5 = 0;
+
+function addition(x) {
+    total5 += x;
+    return total;
+}
+function soustraction(x) {
+    total5 -= x;
+    return total;
+}
+function division(x) {
+if (total === 0) {
+    return (total=x);
+} else {
+    total /= x;
+    return total;
+}
+}
+function multiplication(x) {
+   if (total === 0) {
+       return (total = x);
+   } else {
+       total *= x;
+       return total;
+   }
+}
+
+
+
+
